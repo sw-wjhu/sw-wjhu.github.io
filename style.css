@@ -1,0 +1,43 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #87CEEB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 210px;
+    padding-left: 210px;  
+}
+
+ul {
+    list-style: square;
+}
+
+.header, h3 {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.hiddenimg {
+    display: none;
+}
+
+.hiddentxt {
+    font-weight: bold;
+    color: black;
+    z-index: 99;
+}
+
+.hiddentxt a {
+    color: black;
+    z-index: 99;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+    display: block;
+    position: absolute;
+      z-index: 2
+  }
+
